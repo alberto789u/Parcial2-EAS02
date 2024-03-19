@@ -84,11 +84,11 @@ Cuadrado::Cuadrado(int b) : Figura(b, b)
 {
     setArea(b * b);
 }
-Rectangulo::Rectangulo(int b, int h) : Figura(int b, int h);
+Rectangulo::Rectangulo(int b, int h) : Figura(b, h)
 {
     setArea(b * h);
 }
-Triangulo::Triangulo(int b, int h) : Figura(int b, int h);
+Triangulo::Triangulo(int b, int h) : Figura(b, h)
 {
     setArea(b * h / 2);
 }
