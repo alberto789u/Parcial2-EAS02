@@ -15,15 +15,18 @@ public:
 };
 class Cuadrado : public Figura
 {
+public:
     Cuadrado(int b);
 };
 class Rectangulo : public Figura
 {
-    Rectangulo(int b, int h);: Figura(int b, int h);
+public:
+    Rectangulo(int b, int h);
 };
 class Triangulo : public Figura
 {
-    Triangulo(int b, int h);: Figura(int b, int h);
+public:
+    Triangulo(int b, int h);
 };
 
 /*
