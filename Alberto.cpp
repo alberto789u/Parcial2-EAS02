@@ -80,10 +80,8 @@ float Figura::getArea()
 {
     return a;
 }
-Cuadrado::Cuadrado(int b);
+Cuadrado::Cuadrado(int b) : Figura(b, b)
 {
-    this->h = b;
-    this->b = b;
     setArea(b * b);
 }
 Rectangulo::Rectangulo(int b, int h) : Figura(int b, int h);
